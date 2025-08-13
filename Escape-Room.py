@@ -25,13 +25,13 @@ def room_3_memory():
     return answer.replace(" ", "") == "[1,2,3,4]"
 
 def room_4_bitwise():
-    print("\n🔐 Room 4: The Bitwise Barrier")
+    print("\n Room 4: The Bitwise Barrier")
     print("Decode this: What is the result of 13 ^ 7?")
     answer = input("Your answer: ").strip()
     return answer == str(13 ^ 7)
 
 def room_5_padding():
-    print("\n🔐 Final Room: The Padding Portal")
+    print("\n Final Room: The Padding Portal")
     print("You must align memory blocks. If a struct has a char (1 byte), int (4 bytes), and double (8 bytes), what’s the total size with padding?")
     print("Hint: Assume standard alignment rules.")
     answer = input("Your answer (in bytes): ").strip()
